@@ -1,4 +1,5 @@
-puts "hi"
-#awesome
+require 'sinatra'
 
-#putting a sinatra app here
+get '/' do
+  "Hello World!"
+end
